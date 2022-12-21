@@ -6,7 +6,7 @@ def process_subpage(now, args):
     
     current_folder_path = os.path.dirname(os.path.realpath(__file__))
 
-    current_date_folder = current_folder_path + "/../pages" + '/' + str(now)
+    current_date_folder = current_folder_path + "/../pages" + '/' + "V" + str(now)
     if not os.path.exists(current_date_folder):
         os.makedirs(current_date_folder)
 
