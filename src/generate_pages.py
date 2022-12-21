@@ -45,7 +45,7 @@ const """+ 'V' + str(int(now.timestamp())) + """ = () =>(
             each = \
 """
 <br></br>
-<Link href="""+ '"/' + str(now) + '_' + str(key) + '"' +""">
+<Link href="""+ '"/V' + str(now) + '_' + str(key) + '"' +""">
             <a>""" + str(key) + """</a>
         </Link>"""
             second += each
@@ -74,7 +74,7 @@ import Link from 'next/link'
 const """+ 'V' + str(int(now.timestamp())) + '_' + str(key) + """ = () =>( 
     
     <html>
-        <Link href="""+ '"/' + str(now) + '"' +""">
+        <Link href="""+ '"/V' + str(now) + '"' +""">
             <a><big>Back</big></a>
         </Link>""" + value +\
 """</html>
@@ -103,7 +103,7 @@ def process_mainpage(now, args):
             file_write.writelines(line)
             if title in line:
                 file_write.writelines("    <br></br>\n")
-                file_write.writelines('      <Link href="/' + str(now) + '">\n')
+                file_write.writelines('      <Link href="/V' + str(now) + '">\n')
                 file_write.writelines('        <a>"/' + str(now) + '"</a>\n')
                 file_write.writelines("      </Link>\n")
 
