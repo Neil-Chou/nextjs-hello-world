@@ -34,7 +34,7 @@ def process_subpage(now, args):
         first =  \
             """
 import Link from 'next/link'
-const """+ 'v' + str(int(now.timestamp())) + """ = () =>( 
+const """+ 'V' + str(int(now.timestamp())) + """ = () =>( 
     
     <html><Link href="/day">
             <a><big>Back</big></a>
@@ -53,7 +53,7 @@ const """+ 'v' + str(int(now.timestamp())) + """ = () =>(
 """
 </html>
 );
-export default """ + 'v' + str(int(now.timestamp())) + """;
+export default """ + 'V' + str(int(now.timestamp())) + """;
 
             """
         final = first + second + last
@@ -71,7 +71,7 @@ export default """ + 'v' + str(int(now.timestamp())) + """;
             a = \
             """
 import Link from 'next/link'
-const """+ 'v' + str(int(now.timestamp())) + '_' + str(key) + """ = () =>( 
+const """+ 'V' + str(int(now.timestamp())) + '_' + str(key) + """ = () =>( 
     
     <html>
         <Link href="""+ '"/' + str(now) + '"' +""">
@@ -79,7 +79,7 @@ const """+ 'v' + str(int(now.timestamp())) + '_' + str(key) + """ = () =>(
         </Link>""" + value +\
 """</html>
 );
-export default """ + 'v' + str(int(now.timestamp())) + '_' + str(key) + """;
+export default """ + 'V' + str(int(now.timestamp())) + '_' + str(key) + """;
 
             """
             file_write.writelines(a)
