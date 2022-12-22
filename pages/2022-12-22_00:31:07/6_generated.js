@@ -1,0 +1,12 @@
+
+import Link from 'next/link'
+const V1671640267_6_generated = () =>( 
+    
+    <html>
+        <Link href="/2022-12-22_00:31:07">
+            <a><big>Back</big></a>
+        </Link><html><head><title>sentence_database/init_version/6</title></head><body><h1>sentence_database/init_version/6</h1><p>1. The manned spacecraft was launched from Earth and traveled through the solar system to the celestial sphere, which rotates around the axis of the galaxy.<br></br><br></br>2. The satellite detected the meteor as it entered its orbit and registered its spiral path through the atmosphere. The astronaut on board the spacecraft watched in awe as the celestial object streaked across the sky.<br></br><br></br>3. The spacecraft reached the apex of its orbit during the eclipse, and the unique configuration of the atmosphere allowed for the detection of calcium in the cosmos.<br></br><br></br>4. The ecliptic plane of the planet's orbit had a high inclination due to its strong gravity, and the surface was covered in lava due to intense volcanic activity. The planet's magnetic field was also quite strong, and it was located about one light year away from Earth. The spacecraft's high resolution cameras were able to capture detailed images of the planet's surface as it flew by.<br></br><br></br>5. The spacecraft detected a rift in the planet's tectonic plates, and the intense luminosity of the corona was caused by the high levels of hydrogen in the atmosphere. The planet was located in the interstellar space, and the spacecraft's laser was able to analyze the chemical composition of the atmosphere from a distance.<br></br><br></br>6. NASA sent a spacecraft to study the nebula, which had recently undergone a nova explosion. The opacity of the nebula was variable, waxing and waning over time as it expanded and contracted. The data collected by the spacecraft will help scientists better understand the dynamics of these celestial phenomena.<br></br><br></br>1. 载人飞船从地球发射，穿越太阳系前往天体球，天体球围绕银河系的轴旋转<br></br><br></br>2. 卫星探测到流星进入其轨道时，并注册了它在大气层中的螺旋路径<br></br><br></br>3. 飞船在日食期间到达其轨道的顶点，大气的独特构型使得能够在宇宙中检测到钙<br></br><br></br>4. Unusable response produced by ChatGPT, maybe its unavailable.<br></br><br></br>5. 飞船探测到行星构造板块上的裂缝，冕状光圈的强烈发光是由大气中高氢气体水平引起的<br></br><br></br>6. 美国宇航局派出一艘飞船研究星云，这个星云最近经历了一次新星爆发<br></br><br></br></p></body></html></html>
+);
+export default V1671640267_6_generated;
+
+            

@@ -43,8 +43,13 @@ const """+ 'V' + str(int(now_ori.timestamp())) + """ = () =>(
             <a><big>Back</big></a>
         </Link><br></br><br></br>"""
         second = ""
+        keys = list()
         for key, value in content.items():
-            # file_write.writelines()
+            keys.append(key)
+        
+        keys = sorted(keys, key=lambda x: int(x.split('_')[0]), reverse=False)
+        
+        for key in keys:
             each = \
 """
 <br></br>
@@ -52,6 +57,8 @@ const """+ 'V' + str(int(now_ori.timestamp())) + """ = () =>(
             <a>""" + str(key) + """</a>
         </Link>"""
             second += each
+
+
         last = \
 """
 </html>
@@ -104,7 +111,7 @@ def process_mainpage(time_now, args):
     with open(current_folder_path + '/../pages/index.js') as file_read:
         lines = file_read.readlines()
 
-    title = "Name of folder is the UTC time when it generates.{' '}"
+    title = "Name of folder is the UTC time when it generates."
     with open(current_folder_path + '/../pages/index.js', 'w') as file_write:
         for line in lines:
             file_write.writelines(line)
